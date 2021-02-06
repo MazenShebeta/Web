@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+* {
+    box-sizing: border-box;
+  }
+  body{
+    margin: 0;
+    font-family:'Montserrat', sans-serif;
+    text-align: center;
+
+}
+.hero-bg{
+    color: whitesmoke;
+    background: rgb(96 199 234) url(bg.jpg);
+    background-position-y: -2500px;
+    background-position-x: -300px ;
+    padding: 20px;
+    padding-bottom: 50px;
+    
+
+}
+.hero-bg a{
+    color: white;
+    margin-bottom: 50px;
+    text-decoration: none;
+    font-weight: bold;
+}
+.hero-bg h1{
+    margin-bottom: 50px;
+}
+.hero-bg h3{
+    text-transform: uppercase;
+    margin: 100px 0 -20px 0;
+}
+.container-1{
+    background-color: white;
+    color: black;
+    padding: 30px 0;
+    margin: 0 -30px;
+
+}
+.city{
+    color: #2d7d98;
+    font-weight: bold;
+    display: block;
+    
+}
+input{
+    width: 80%;
+    padding: 10px 22px;
+    margin: 10px 5px;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+input[type='submit']{
+    background-color: darkorange;
+    width: 80%;
+    padding: 15px 22px;
+    margin: 10px 5px;
+    margin-top: 20px;
+    box-sizing: border-box;
+    color: white;
+    font-size: 1.2em;
+    font-weight: bold;
+    border-radius: 10px;
+}
+.authentic{
+    padding: 0 30px;
+    margin-bottom: 20px;
+}
+img{
+    width: 100%;
+    height: auto;
+}
+#overlay {
+    position: fixed; /* Sit on top of the page content */
+    display: none; /* Hidden by default */
+    width: 100%; /* Full width (cover the whole page) */
+    height: 100%; /* Full height (cover the whole page) */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5); /* Black background with opacity */
+    z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+    cursor: pointer; /* Add a pointer on hover */
+  }
